@@ -57,6 +57,6 @@ btn.addEventListener("click", () => {
     })
     .then((num) => {
       num = num + 10;
-      outputDiv.textContent = `Result: ${num}`;
+      outputDiv.textContent = `Final Result: ${num}`;
     });
 });
