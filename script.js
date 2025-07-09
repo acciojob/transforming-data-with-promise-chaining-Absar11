@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
       return new Promise((resolve) => {
         setTimeout(() => {
           resolve(num * 2);
-        }, 2000);
+        }, 1000);
       });
     })
     .then((num) => {
